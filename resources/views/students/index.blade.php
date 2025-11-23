@@ -10,8 +10,9 @@
         <h5 class="mb-0">Student List</h5>
         <a href="{{ route('students.create') }}" class="btn btn-sm btn-success">Create</a>
     </div>
-    
+
     <div class="card-body p-0">
+        
         <table class="table mb-0">
             <thead>
                 <tr>
