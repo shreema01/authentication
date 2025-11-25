@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\API\AuthenticationController;
+use App\Http\Controllers\API\AuthenticationController; 
 use App\Http\Controllers\API\StudentController;
 use App\Http\Controllers\API\TeacherController;
 
@@ -19,6 +19,6 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::apiResource('students', StudentController::class);
 
     // Teacher CRUD
-    Route::apiResource('teachers', TeacherController::class);
-
+    Route::apiResource('teachers',      TeacherController::class);
+ 
 });
