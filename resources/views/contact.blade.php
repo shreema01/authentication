@@ -20,6 +20,7 @@
 
         <button type="submit"
             class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Send Message</button>
+            
     </form>
 </div>
 @endsection
