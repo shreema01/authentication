@@ -9,13 +9,11 @@ use App\Http\Controllers\API\TeacherController;
 Route::post('register', [AuthenticationController::class, 'register']);
 Route::post('login', [AuthenticationController::class, 'login']);
 
+
 // Protected routes
 Route::middleware('auth:sanctum')->group(function () {
     Route::get('get-user', [AuthenticationController::class, 'userInfo']);
     Route::post('logout', [AuthenticationController::class, 'logOut']);
-
-    // new for profile picture upload
-    // Route::post('student-update/{id}', [StudentController::class, 'studentUpdate']);
 
     // Student CRUD with profile picture upload
     Route::apiResource('students', StudentController::class);
