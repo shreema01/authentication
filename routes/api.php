@@ -18,7 +18,7 @@ Route::middleware('auth:sanctum')->group(function () {
     // Student CRUD with profile picture upload
     Route::apiResource('students', StudentController::class);
 
-    // Teacher CRUD
+    // Teacher CRUD with profile picture upload
     Route::apiResource('teachers',      TeacherController::class);
  
 });
