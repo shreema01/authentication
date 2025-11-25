@@ -3,6 +3,7 @@
 @section('title', 'About Us')
 
 @section('content')
+
 <div class="max-w-3xl mx-auto bg-white p-6 rounded-xl shadow-lg mt-10">
     <h2 class="text-3xl font-bold text-blue-600 mb-4">About Us</h2>
     <p class="text-gray-700 leading-relaxed">
