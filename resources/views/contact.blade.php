@@ -8,6 +8,7 @@
 
     <form action="#" method="POST" class="space-y-4">
         @csrf
+        
         <input type="text" name="name" placeholder="Your Name"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
         <input type="email" name="email" placeholder="Your Email"
