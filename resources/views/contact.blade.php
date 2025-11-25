@@ -13,14 +13,15 @@
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
         <input type="email" name="email" placeholder="Your Email"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
-        <input type="text" name="subject" placeholder="Subject"
+        
+            <input type="text" name="subject" placeholder="Subject"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400">
         <textarea name="message" rows="4" placeholder="Your Message"
             class="w-full p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
 
         <button type="submit"
             class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-600">Send Message</button>
-            
+
     </form>
 </div>
 @endsection
