@@ -12,7 +12,9 @@
       @if($student->profile_picture)
           <img src="{{ asset('storage/' . $student->profile_picture) }}" alt="Profile Picture" width="150">
       @else
-          <img src="{{ asset('storage/proxy-image.jpeg') }}" alt="No Image" width="150">
+          
+      <img src="{{ asset('storage/proxy-image.jpeg') }}" alt="No Image" width="150">
+      
       @endif
     </div>
 
