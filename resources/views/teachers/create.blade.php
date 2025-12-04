@@ -6,7 +6,8 @@
   <h2>Add New Teacher</h2>
 
     <form action="{{ route('teachers.store') }}" method="POST" enctype="multipart/form-data">
-        @csrf
+        
+      @csrf
         <div class="mb-3">
             <label>Name:</label>
             <input type="text" name="name" class="form-control" required>
